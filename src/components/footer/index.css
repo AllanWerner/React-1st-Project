@@ -1,0 +1,43 @@
+footer {
+  margin-top: 8%;
+  padding: 3%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1%;
+}
+
+footer p,
+h4,
+h2 {
+  color: azure;
+  font-size: 1.2em;
+}
+
+footer a > *:not(.Privacy) {
+  margin: 0 10px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.5s;
+  background: rgb(0, 0, 0);
+  color: var(--color);
+  font-size: 2em;
+}
+
+.media-bloc img {
+  width: 100%;
+  height: 100%;
+}
+
+.media-bloc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
